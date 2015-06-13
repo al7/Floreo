@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133A80EC1B2BB1D100C33919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133A80EB1B2BB1D100C33919 /* AppDelegate.swift */; };
+		133A80EE1B2BB1D100C33919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133A80ED1B2BB1D100C33919 /* ViewController.swift */; };
+		133A80F31B2BB1D100C33919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133A80F21B2BB1D100C33919 /* Images.xcassets */; };
+		133A80F61B2BB1D100C33919 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133A80F41B2BB1D100C33919 /* LaunchScreen.xib */; };
+		133A81021B2BB1D100C33919 /* FloreoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133A81011B2BB1D100C33919 /* FloreoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133A80FC1B2BB1D100C33919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133A80DE1B2BB1D100C33919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133A80E51B2BB1D100C33919;
+			remoteInfo = Floreo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133A80E61B2BB1D100C33919 /* Floreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floreo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		133A80EA1B2BB1D100C33919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133A80EB1B2BB1D100C33919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		133A80ED1B2BB1D100C33919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		133A80F21B2BB1D100C33919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		133A80F51B2BB1D100C33919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		133A80FB1B2BB1D100C33919 /* FloreoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloreoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133A81001B2BB1D100C33919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133A81011B2BB1D100C33919 /* FloreoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloreoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133A80E31B2BB1D100C33919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133A80F81B2BB1D100C33919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133A80DD1B2BB1D100C33919 = {
+			isa = PBXGroup;
+			children = (
+				133A80E81B2BB1D100C33919 /* Floreo */,
+				133A80FE1B2BB1D100C33919 /* FloreoTests */,
+				133A80E71B2BB1D100C33919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		133A80E71B2BB1D100C33919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133A80E61B2BB1D100C33919 /* Floreo.app */,
+				133A80FB1B2BB1D100C33919 /* FloreoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133A80E81B2BB1D100C33919 /* Floreo */ = {
+			isa = PBXGroup;
+			children = (
+				133A810B1B2BB1E800C33919 /* Source */,
+				133A80EB1B2BB1D100C33919 /* AppDelegate.swift */,
+				133A80ED1B2BB1D100C33919 /* ViewController.swift */,
+				133A80F21B2BB1D100C33919 /* Images.xcassets */,
+				133A80F41B2BB1D100C33919 /* LaunchScreen.xib */,
+				133A80E91B2BB1D100C33919 /* Supporting Files */,
+			);
+			path = Floreo;
+			sourceTree = "<group>";
+		};
+		133A80E91B2BB1D100C33919 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				133A80EA1B2BB1D100C33919 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		133A80FE1B2BB1D100C33919 /* FloreoTests */ = {
+			isa = PBXGroup;
+			children = (
+				133A81011B2BB1D100C33919 /* FloreoTests.swift */,
+				133A80FF1B2BB1D100C33919 /* Supporting Files */,
+			);
+			path = FloreoTests;
+			sourceTree = "<group>";
+		};
+		133A80FF1B2BB1D100C33919 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				133A81001B2BB1D100C33919 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		133A810B1B2BB1E800C33919 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		133A80E51B2BB1D100C33919 /* Floreo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133A81051B2BB1D100C33919 /* Build configuration list for PBXNativeTarget "Floreo" */;
+			buildPhases = (
+				133A80E21B2BB1D100C33919 /* Sources */,
+				133A80E31B2BB1D100C33919 /* Frameworks */,
+				133A80E41B2BB1D100C33919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Floreo;
+			productName = Floreo;
+			productReference = 133A80E61B2BB1D100C33919 /* Floreo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		133A80FA1B2BB1D100C33919 /* FloreoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133A81081B2BB1D100C33919 /* Build configuration list for PBXNativeTarget "FloreoTests" */;
+			buildPhases = (
+				133A80F71B2BB1D100C33919 /* Sources */,
+				133A80F81B2BB1D100C33919 /* Frameworks */,
+				133A80F91B2BB1D100C33919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133A80FD1B2BB1D100C33919 /* PBXTargetDependency */,
+			);
+			name = FloreoTests;
+			productName = FloreoTests;
+			productReference = 133A80FB1B2BB1D100C33919 /* FloreoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133A80DE1B2BB1D100C33919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alexandre Leite";
+				TargetAttributes = {
+					133A80E51B2BB1D100C33919 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					133A80FA1B2BB1D100C33919 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 133A80E51B2BB1D100C33919;
+					};
+				};
+			};
+			buildConfigurationList = 133A80E11B2BB1D100C33919 /* Build configuration list for PBXProject "Floreo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133A80DD1B2BB1D100C33919;
+			productRefGroup = 133A80E71B2BB1D100C33919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133A80E51B2BB1D100C33919 /* Floreo */,
+				133A80FA1B2BB1D100C33919 /* FloreoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133A80E41B2BB1D100C33919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133A80F61B2BB1D100C33919 /* LaunchScreen.xib in Resources */,
+				133A80F31B2BB1D100C33919 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133A80F91B2BB1D100C33919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133A80E21B2BB1D100C33919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133A80EE1B2BB1D100C33919 /* ViewController.swift in Sources */,
+				133A80EC1B2BB1D100C33919 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133A80F71B2BB1D100C33919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133A81021B2BB1D100C33919 /* FloreoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133A80FD1B2BB1D100C33919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133A80E51B2BB1D100C33919 /* Floreo */;
+			targetProxy = 133A80FC1B2BB1D100C33919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		133A80F41B2BB1D100C33919 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				133A80F51B2BB1D100C33919 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		133A81031B2BB1D100C33919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133A81041B2BB1D100C33919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		133A81061B2BB1D100C33919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Floreo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		133A81071B2BB1D100C33919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Floreo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		133A81091B2BB1D100C33919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FloreoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floreo.app/Floreo";
+			};
+			name = Debug;
+		};
+		133A810A1B2BB1D100C33919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FloreoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floreo.app/Floreo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133A80E11B2BB1D100C33919 /* Build configuration list for PBXProject "Floreo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133A81031B2BB1D100C33919 /* Debug */,
+				133A81041B2BB1D100C33919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133A81051B2BB1D100C33919 /* Build configuration list for PBXNativeTarget "Floreo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133A81061B2BB1D100C33919 /* Debug */,
+				133A81071B2BB1D100C33919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		133A81081B2BB1D100C33919 /* Build configuration list for PBXNativeTarget "FloreoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133A81091B2BB1D100C33919 /* Debug */,
+				133A810A1B2BB1D100C33919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133A80DE1B2BB1D100C33919 /* Project object */;
+}
